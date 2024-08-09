@@ -8,7 +8,8 @@ const form = document.querySelector('.feedback-form');
 
 class Data {
   constructor(user, message) {
-    (this.user = user), (this.message = message);
+    this.user = user, 
+    this.message = message
   }
 }
 

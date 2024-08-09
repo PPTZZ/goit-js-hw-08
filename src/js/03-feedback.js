@@ -1,4 +1,4 @@
-import _, { lowerFirst } from 'lodash';
+import _ from 'lodash';
 
 const STORAGE_KEY = 'feedback-form-state';
 const email = document.querySelector('.feedback-form input');
